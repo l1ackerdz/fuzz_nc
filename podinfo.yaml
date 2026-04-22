@@ -1,0 +1,18 @@
+id: exposed-readyz-exact
+
+info:
+  name: Exposed Readiness Endpoint Exact podinfo
+  author: hunter
+  severity: critical
+  tags: exposure
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/readyz"
+
+    matchers:
+      - type: regex
+        part: body
+        regex:
+          - '^\s*\{\s*"status"\s*:\s*"OK"\s*\}\s*$'
