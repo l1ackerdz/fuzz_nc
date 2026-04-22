@@ -1,0 +1,25 @@
+id: gitlab-swagger-ui-detected
+
+info:
+  name: GitLab Swagger UI endpoint detected
+  author: x0abcd
+  severity: medium
+  description: Detects GitLab's embedded Swagger UI at the common sandbox path.
+  tags: gitlab, swagger, swagger-ui, discovery
+  reference:
+    - https://docs.gitlab.com/
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/-/sandbox/swagger"
+    headers:
+      User-Agent: nuclei-scanner
+      Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    redirects: true
+
+    matchers:
+      - type: word
+        words:
+          - '<div id="swagger-ui">'
+        part: body
