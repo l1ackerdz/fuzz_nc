@@ -44,6 +44,7 @@ http:
           - 'TESTDZ" "XXXXXX'
           - "TESTDZ'XXXXXX"
           - "href=TESTDZ:HAHAHADZ"
+          - "HREF=TESTDZ:HAHAHADZ"
           - 'XXXX"><XXXXXX'
           - "XXXX'><XXXXXX"
           - 'TEST"><XX>JHJHJ'
