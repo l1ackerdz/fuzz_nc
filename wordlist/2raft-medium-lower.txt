@@ -2975,7 +2975,6 @@ id_dsa.ppk
 id_rsa
 id_rsa.pub
 IdentityGuardSelfService/
-IdentityGuardSelfService/images/favicon.ico
 idx_config
 iiasdmpwd/
 iiop/ClientClose
@@ -4675,7 +4674,6 @@ snoop2
 SnoopServlet
 snort/
 snp
-soap/
 soapdocs/
 soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 soapserver/
@@ -12135,7 +12133,6 @@ fat
 fathersday
 fatture
 fav
-favicons
 favorite
 favorites
 favoritos
@@ -73056,7 +73053,6 @@ favicons.php
 favicons.html
 favicons.zip
 favicons.json
-favicons/
 favicons.txt
 favicons.dll
 favorite.php
