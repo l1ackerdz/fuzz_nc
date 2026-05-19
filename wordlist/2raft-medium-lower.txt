@@ -18365,7 +18365,6 @@ option
 optioncart
 options
 optispider
-optout
 opus
 opx
 opx3
@@ -116683,7 +116682,6 @@ optout.php
 optout.html
 optout.zip
 optout.json
-optout/
 optout.txt
 optout.dll
 opus.php
@@ -132969,7 +132967,6 @@ relaxation/
 relaxation.txt
 relaxation.dll
 relay.php
-relay.html
 relay.zip
 relay.json
 relay/
