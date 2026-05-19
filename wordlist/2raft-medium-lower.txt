@@ -4209,7 +4209,6 @@ physican/login.do
 pi.php5
 pids
 pinfo.php
-ping
 pip-delete-this-directory.txt
 pip-log.txt
 piwigo/
